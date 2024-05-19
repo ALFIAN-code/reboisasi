@@ -10,5 +10,5 @@ while [ true ]; do
     
     
     git push -u origin2 main
-    sleep 18000s
+    sleep 43200s
 done
