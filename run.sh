@@ -1,11 +1,14 @@
 #!/usr/bin/bash
 
-echo 'this is commit ' >> create.txt
-
-git add . 
-
-RANDOM=$$$(date +%s)
-git commit -m "$RANDOM"
-
-
-git push -u origin2 main
+while [ true ]; do
+    echo 'this is commit ' >> create.txt
+    
+    git add .
+    
+    RANDOM=$$$(date +%s)
+    git commit -m "$RANDOM"
+    
+    
+    git push -u origin2 main
+    sleep 18000s
+done
