@@ -9,7 +9,6 @@ git add .
 RANDOM=$$$(date +%s)
 git commit -m "$RANDOM"
 
-
 git push -u origin2 main
 
-dunstify "t2" -a "Commited" 
+dunstify "Commited" 
