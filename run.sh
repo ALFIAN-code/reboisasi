@@ -14,5 +14,5 @@ while ! ping -c 1 -W 1 google.com &> /dev/null; do
     sleep 5  
 done
 
-git push -u origin2 main
+git push -u origin main
 dunstify "Commited"
