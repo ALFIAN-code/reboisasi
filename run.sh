@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/.config/hypr/reboisasi/
+cd /home/alfian/alfianSpace/reboisasi/
 
 echo 'this is commit ' >> create.txt
 
